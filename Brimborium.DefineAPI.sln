@@ -25,13 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleClient", "sample\Samp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleContracts", "sample\SampleContracts\SampleContracts.csproj", "{D765F052-1AC4-4D11-8497-7D7FC91C1AF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brimborium.DependencyInjection.Registration", "src\Brimborium.DependencyInjection.Registration\Brimborium.DependencyInjection.Registration.csproj", "{13981540-F3BB-BC28-3762-AD5476B22C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{97B47DFE-52DA-4415-A2A2-78BAF207D9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -66,6 +65,13 @@ Global
 		{D765F052-1AC4-4D11-8497-7D7FC91C1AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D765F052-1AC4-4D11-8497-7D7FC91C1AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D765F052-1AC4-4D11-8497-7D7FC91C1AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13981540-F3BB-BC28-3762-AD5476B22C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13981540-F3BB-BC28-3762-AD5476B22C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13981540-F3BB-BC28-3762-AD5476B22C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13981540-F3BB-BC28-3762-AD5476B22C19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{97B47DFE-52DA-4415-A2A2-78BAF207D9EC} = {876F7092-9CFF-49C1-BB7A-FAB317D5D19A}
@@ -76,5 +82,9 @@ Global
 		{2BA704FE-BBEF-4498-B7B9-4CD7496E0205} = {7234721A-5D3C-47C3-8C48-951247190CC6}
 		{AD036BCB-B875-467D-9A7A-93E1F14266AF} = {7234721A-5D3C-47C3-8C48-951247190CC6}
 		{D765F052-1AC4-4D11-8497-7D7FC91C1AF6} = {7234721A-5D3C-47C3-8C48-951247190CC6}
+		{13981540-F3BB-BC28-3762-AD5476B22C19} = {876F7092-9CFF-49C1-BB7A-FAB317D5D19A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FA50C0A-84E0-44CD-A05C-16B203371762}
 	EndGlobalSection
 EndGlobal

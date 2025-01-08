@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Brimborium.DefineAPI.Server\Brimborium.DefineAPI.Server.csproj" />
+    <ProjectReference Include="..\..\src\Brimborium.DependencyInjection.Registration\Brimborium.DependencyInjection.Registration.csproj" />
     <ProjectReference Include="..\SampleContracts\SampleContracts.csproj" />
   </ItemGroup>
 
