@@ -5,7 +5,7 @@ public interface IDARequest {
 
     string MetaType { get; set; }
 
-    string EtagIfNotChanged { get; set; }
+    string? EtagIfNotChanged { get; set; }
 }
 
 public interface IDARequest<T>: IDARequest {
@@ -22,7 +22,7 @@ public class DARequest : IDARequest {
 
     public string MetaType { get; set; } = string.Empty;
 
-    public string? EtagIfNotChanged { get; set; };
+    public string? EtagIfNotChanged { get; set; }
 
 }
 

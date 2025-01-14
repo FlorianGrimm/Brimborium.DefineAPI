@@ -26,13 +26,14 @@ public class DARequestHandlerDelegate(
 public class DARequestHandler<T>(
     string metaType
     ) : IDARequestHandler<T> {
-    public string? GetETagOfObject(object payload) => this.GetETagOfPayload((T)payload);
+    public string? GetETagOfObject(object payload) 
+        => (payload is T payloadT) ? this.GetETagOfPayload(payloadT):null;
 
     public virtual string? GetETagOfPayload(T payload) {
         return null;
     }
 
-    public virtual string GetMetaType() => metaType;
+    public string GetMetaType() => metaType;
 }
 
 public class DARequestHandlerObject(
